@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "hf_api"
+version = "0.1.0"
+description = "A script to fetch data from an API and save it to a file."
+authors = ["Ivan Sekulic <ivansekulic0@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+smolagent = "^1.15.0"
+requests = "^2.28.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
